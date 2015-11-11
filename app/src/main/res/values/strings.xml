@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HealthcareMobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="button_login">login</string>
+    <string name="title_activity_loginsuccess">Loginsuccess</string>
+    <string name="webview">web</string>
+    <string name="title_activity_info__search">Info_Search</string>
+</resources>

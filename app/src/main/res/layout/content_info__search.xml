@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        >
+        <RadioButton
+            style="@style/radioButton"
+            android:text="User"
+            android:id="@+id/btn1"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton
+            style="@style/radioButton"
+            android:text="Index"
+            android:id="@+id/btn2"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton
+            style="@style/radioButton"
+            android:text="Search"
+            android:id="@+id/btn3"
+            android:onClick="onRadioButtonClicked"
+            />
+
+    </RadioGroup>
+    <!--    <EditText
+            android:id="@+id/edit_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message" />
+        <EditText
+            android:id="@+id/edit_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_location" />
+        <CheckBox android:id="@+id/checkbox_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox_pay"
+            android:onClick="onCheckboxClicked"/>
+     -->
+
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:text="@string/button_freemode"-->
+        <!--android:onClick="sendMessage" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="120dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:text="@string/button_paymode"-->
+        <!--android:onClick="onBuyPressed" />-->
+
+
+    <!--<fragment-->
+        <!--android:name="com.google.android.gms.maps.MapFragment"-->
+        <!--android:id="@+id/map2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp"/>-->
+
+
+</LinearLayout>
